@@ -45,7 +45,8 @@ Create the User Sign and Password Reste flows as explained [here](https://docs.m
 
 1. Open the file ```web\src\Authentication\MSALConfig.js```
 2. On the client Id, put the application id you took note on the step 2
-3. On the authority use the following format, https://yourdomain.b2clogin.com/yourdomain.onmicrosoft.com/signinupflowname. * The sign in/up you took note on step 3
+3. On the authority use the following format, https://yourdomain.b2clogin.com/yourdomain.onmicrosoft.com/signinupflowname. 
+   * The sign in/up you took note on step 3
 4. Under the scopes variable, add the scope url you took note on the Step 2.2
 
 ## Configuring ASPNETCore Backend
