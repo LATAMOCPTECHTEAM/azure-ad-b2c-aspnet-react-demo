@@ -79,7 +79,7 @@ The authentication logic and methods are under the ```web\src\Authentication\Wit
 
 ### Adding Azure AD Authentication
 
-For Single Tenant: https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-add-identity-providers
+#### For Single Tenant: https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-add-identity-providers
 * Obs: The Application Id should be created in the Tenant that contains the users
 
-For Multi Tenant: https://docs.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-azure-ad-multi-tenant-custom?tabs=app-reg-ga
+#### For Multi Tenant: https://docs.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-azure-ad-multi-tenant-custom?tabs=app-reg-ga
