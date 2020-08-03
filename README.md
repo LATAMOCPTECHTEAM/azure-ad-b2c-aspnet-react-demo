@@ -37,7 +37,7 @@ This samples shows an option to make the Azure AD B2C integration, enabling the 
 * Click on the ```Grant admin consent for *your tenant*``` button.
 
 ### Step 3:
-Create the User Sign and Password Reste flows as explained [here](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows)
+Create the User Sign and Password Reset flows as explained [here](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows)
 
 * Take note of the flow names
 
@@ -77,3 +77,9 @@ Inside the api folder, run ```dotnet run --project B2CDemo.API\B2CDemo.API.cspro
 The authentication logic and methods are under the ```web\src\Authentication\WithAuthentication.jsx``` file.
 
 
+### Adding Azure AD Authentication
+
+For Single Tenant: https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-add-identity-providers
+* Obs: The Application Id should be created in the Tenant that contains the users
+
+For Multi Tenant: https://docs.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-azure-ad-multi-tenant-custom?tabs=app-reg-ga
